@@ -1,1 +1,0 @@
-{"version":3,"sources":["filestorage/db.cljs"],"mappings":";AAGA,AAAA,AAAA,AAAA,AAAKA;AAEL,AAAKC,AAAU,AAAA,AAAA,AAAA,AAACC","names":["filestorage.db/default-db","filestorage.db/app-state","reagent.core.atom"],"sourcesContent":["(ns filestorage.db\n  (:require [reagent.core :as r]))\n\n(def default-db {:name \"db\"})\n\n(def app-state (r/atom {:name \"app-state\"}))\n"]}

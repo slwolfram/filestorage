@@ -1,4 +1,4 @@
-from backend import create_app
+from src import create_app
 
 from fastapi.middleware.cors import CORSMiddleware
 
