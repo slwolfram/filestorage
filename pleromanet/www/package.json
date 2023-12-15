@@ -1,0 +1,23 @@
+{
+    "name": "pleromanet",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "start": "shadow-cljs watch app"
+    },
+    "dependencies": {
+        "@tinymce/tinymce-react": "^4.3.2",
+        "create-react-class": "15.6.3",
+        "g": "^2.0.1",
+        "immutable": "^4.3.4",
+        "react": "16.9.0",
+        "react-dom": "16.9.0",
+        "react-quill": "^2.0.0",
+        "react-router": "5.0.0",
+        "react-router-dom": "5.0.0",
+        "shadow-cljs": "^2.25.9",
+        "slate": "^0.101.1",
+        "slate-plain-serializer": "^0.7.13",
+        "slate-react": "^0.101.1"
+    }
+}

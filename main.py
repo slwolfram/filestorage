@@ -1,4 +1,4 @@
-from src import create_app
+from pleromanet import create_app
 
 from fastapi.middleware.cors import CORSMiddleware
 
